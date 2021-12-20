@@ -1,0 +1,28 @@
+body{
+    background-color: #559123;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.s1{
+    font-style: italic;
+    color: #ffffff;
+    font-size: large;
+}
+
+.s2{
+    color: #faf75b;
+    font-size: x-large;
+}
+
+.s3{
+    color: #f7a307;
+    font-size: xx-large;
+}
+
+.s4{
+    color: #f7213d;
+    font-size: medium;
+}

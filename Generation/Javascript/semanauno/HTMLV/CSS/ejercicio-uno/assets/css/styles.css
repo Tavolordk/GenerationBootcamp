@@ -1,0 +1,38 @@
+/*Comentarios en CSS*/
+.encabezado{
+    /*font-size tamaño de fuente
+    color para cambiar el color de nuestra letra
+    medidas comunes px, %, em,rem*/
+    font-size: 72px;
+    color: #011cb6;
+    /*background-color aplica un color de fondo
+    text-align para alinear texto a distintas posiciones
+    text-transform para transformar texto mayusculas,etc*/
+    background-color: #f7f307;
+    text-align: center;
+    text-transform: lowercase;
+}
+body{
+    background-color: #e1e1e1;
+}
+p{
+    color: #ffffff;
+    background-color: #024410;
+}
+
+p{
+    color: #024410;
+    background-color: #f7f307;
+}
+
+#texto{
+    color: blue;
+    background-color: red;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.texto{
+    color: #ffffff;
+    background-color: #000000;
+}
