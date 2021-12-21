@@ -1,0 +1,53 @@
+body{
+    background-color: darkgreen;
+}
+.caja{
+    width: 700px;
+    height: 80px;
+}
+.uno{
+    border-radius: 20px;
+    border: 7px solid black;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+     margin-left: 350px;
+     background-color: white;
+}
+
+.titulo{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.dos, .cinco{
+   background-color: rgb(224, 107, 40);
+   border: 30px solid darkred;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   margin: 30px;
+   color: white;
+}
+
+.tres, .seis{
+    border: 30px solid #804800;
+    background-color: #ac7a39;
+    margin-left: 800px;
+    border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   color: white;
+}
+
+.cuatro, .siete{
+    border: 10px dashed #3978ac;
+    background-color: #004680;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 60px;
+}
