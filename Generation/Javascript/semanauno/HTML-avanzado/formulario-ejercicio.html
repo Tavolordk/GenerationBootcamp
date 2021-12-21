@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+  </head>
+  <body>
+    <form class="formulario">
+        Datos del comprador
+        <br/>
+        <br/>
+      <div class="nombre">
+        <label for="nombre">Nombre</label>  
+        <input
+          id="nombre"
+          name="nombre"
+          class="nombre"
+          type="text"
+          placeholder="Escribe tu nombre completo"
+          required
+        />
+      </div>
+      <div class="email">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          class="email"
+          placeholder="ejemplo@um.es"
+          required
+        />
+      </div>
+      <div class="telefono">
+        <label for="telefono">Teléfono</label>  
+        <input
+          id="telefono"
+          name="telefono"
+          class="telefono"
+          placeholder="Ej. +34668899999"
+          type="tel"
+          required
+        />
+      </div>
+      <div class="pais">
+          <label for="pais">País</label>
+          <select name="pais" id="pais">
+              <option value="1">México</option>
+              <option value="2">USA</option>
+              <option value="3">Canadá</option>
+          </select>
+      </div>
+<br/>
+
+      Datos de tarjeta de crédito o débito
+      <br/>
+      <br/>
+      <div class="numero">
+          <label for="numero">Número</label>
+          <input
+          id="numero"
+          name="numero"
+          class="numero"
+          placeholder="Ej. 5555-4444-3333-2222"
+          type="number"
+          minlength="0"
+          maxlength="16">
+      </div>
+      
+      <div class="propietario">
+          <label for="propietario">Nombre</label>
+          <input
+          id="propietario"
+          name="propietario"
+          class="propietario"
+          placeholder="Nombre que figura en la tarjeta" 
+          type="text">
+      </div>
+
+      <div class="separacion">---------------------------</div>
+
+      <div class="enviar">
+          <button>Confirmar pedido</button>
+      </div>
+    </form>
+  </body>
+</html>

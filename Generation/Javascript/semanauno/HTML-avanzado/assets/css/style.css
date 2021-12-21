@@ -1,0 +1,25 @@
+.formulario{
+    border: 1px solid red;
+}
+
+.nombre input{
+    border: 2px solid green;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+  }
+
+.password input{
+    border: 2px dashed blue;
+}
+
+input{
+    margin-top: 10px;
+}
