@@ -1,0 +1,32 @@
+.p1{
+    border: 2px solid #b14d4d;
+    background-color: #58ada9;
+    background-size: 200px 180px;
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    font-style: italic;
+    color: #f8cc07;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .psection{
+      text-align: justify;
+  }
