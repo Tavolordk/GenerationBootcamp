@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+p{
+    font-family: 'Moo Lah Lah';
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Waterfall',cursive;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black, 0 0 1em yellow, 0 0 0.2em yellow;
+}
+
+.graffiti{
+    background-color: #327909;
+}
+
+.barrioLoco{
+    font-family: 'Rock 3D';
+    font-size: 60px;
+    text-shadow: 1px 1px 4px rgb(7, 11, 243), 0 0 1em yellow, 0 0 0.2em yellow;
+    text-align: center;
+}
