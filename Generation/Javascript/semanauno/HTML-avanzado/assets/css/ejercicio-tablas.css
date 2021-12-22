@@ -1,0 +1,32 @@
+table,tr,th,td{
+    border: 1px solid black;
+    
+}
+
+table{
+    margin: auto;
+    width: 800px;
+}
+.b1{
+    color: red;
+}
+
+.s1{
+    background-color: darkorange;
+}
+
+.s2{
+    background-color: black;
+}
+
+.s3{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: darkseagreen;
+}
