@@ -1,0 +1,30 @@
+body{
+    background-color: #f5eeee;
+    padding: 0;
+	margin: 0;
+}
+.efect-1{
+    background-color: #666363;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 50px;
+}
+.efect-2{
+color: #f10d0d;
+}
+.efect-3{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+h1{
+    text-align: center;
+}
+.content-one{
+    display: flex;
+    flex-direction: row;
+}
+.content-two{
+    display: flex;
+    flex-direction: row;
+}
