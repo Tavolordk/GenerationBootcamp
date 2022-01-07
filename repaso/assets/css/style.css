@@ -1,0 +1,17 @@
+table,tr,th,td{
+    border: solid 1px black;
+}
+
+table{
+    width: 400px;
+}
+
+.enlace{
+    text-align: center;
+    display: inline-block;
+    background-color: blue;
+}
+#bloque{
+    text-align: center;
+    background-color: red;
+}
