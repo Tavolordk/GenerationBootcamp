@@ -27,4 +27,3 @@ function getInformation()
 }
 
 
-getInformation();
